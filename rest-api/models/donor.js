@@ -2,11 +2,6 @@ const mongoose = require("mongoose");
 
 // Define a schema for the series collection
 const donorSchema = new mongoose.Schema({
-  userId: {
-    type: String,
-    unique: true,
-    required: true,
-  },
   userName: {
     type: String,
     required: true,
